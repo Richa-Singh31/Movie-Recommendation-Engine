@@ -1,0 +1,23 @@
+columns:
+  - movie_id
+  - title
+  - overview
+  - genres
+  - cast
+  - crew
+  - keywords
+
+columns_to_convert:
+  - genres
+  - keywords
+
+columns_to_clean:
+  - genres
+  - cast
+  - crew
+  - keywords
+
+columns_to_use:
+  - movie_id
+  - title
+  - tags
